@@ -1,0 +1,17 @@
+﻿<Page x:Class="FireTestingApp.Pages.UserPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FireTestingApp.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="670" d:DesignWidth="1087"
+      Title="UserPage">
+
+    <Grid Background="White">
+        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Height="244" Width="652" FontWeight="Bold" TextAlignment="Center" FontSize="20" HorizontalAlignment="Center"><Run Text="Этот тест направлен на проверку "/><Run Text="фундаментальных"/><Run Text=" знаний по основам пожарной безопасности стажерами МЧС России"/><LineBreak/><Run/><LineBreak/><Run Text="Вам будет представлено 10 тестовых вопросов. "/><LineBreak/><Run/><LineBreak/><Run Text="Время выполнения тестирования не ограничено"/><Run Language="ru-ru" Text="."/><Run/><LineBreak/><Run Language="ru-ru" Text="В"/><Run Text="озвратиться к прошлому вопросу нельзя"/><Run Text=" "/><LineBreak/><Run/><LineBreak/><Run Text="Удачи!"/></TextBlock>
+        <Button x:Name="StartTestButton" Content="НАЧАТЬ ТЕСТИРОВАНИЕ" Height="44" Click="StartTestButton_Click" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,500,0,0" Width="307"/>
+        <TextBlock x:Name="HelloLabel" HorizontalAlignment="Center" Margin="0,158,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="32" Width="428" TextAlignment="Center" FontSize="16"/>
+
+    </Grid>
+</Page>
